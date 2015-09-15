@@ -30,7 +30,6 @@ password = process.env.HUBOT_AKAMAI_CCU_PASSWORD
 
 if not username or not password
   console.log "Missing HUBOT_AKAMAI_CCU_USERNAME or HUBOT_AKAMAI_CCU_PASSWORD in environment"
-  process.exit 1
 
 allowed_url_pattern = undefined
 if process.env.HUBOT_AKAMAI_CCU_ALLOWED_URL_REGEXP
